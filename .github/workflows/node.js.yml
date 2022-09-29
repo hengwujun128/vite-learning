@@ -1,8 +1,8 @@
 # This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-# 依赖于package-lock.json
-# pnpm-lock.yaml 不起作用
+# 依赖于package-lock.json,如果没有 package-lock.json workflow 会报错
+#  只有pnpm-lock.yaml 不起作用
 
 name: Node.js CI
 # 触发条件
