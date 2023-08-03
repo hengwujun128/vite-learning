@@ -6,7 +6,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <h2>this is my vite project for learning</h2>
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
 
